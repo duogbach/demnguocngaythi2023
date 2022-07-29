@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  (oncontextmenu="return false" onselectstart="return false" ondragstart="return false")>
 
 <head>
   <meta charset="UTF-8" />
@@ -11,7 +11,11 @@
   <meta property="og:description"
     content="Đếm ngược ngày thi THPTQG đến ngày 07/07/2023" />
   <meta name="keywords" content="đếm ngược ngày thi, thi thpt, thi thptqg, đếm ngày thi, tính ngày thi, đếm ngược ngày thi thpt 2023, đếm ngược ngày thi tốt nghiệp thpt" />
-
+  <script type="text/javascript>
+        document.onkeydown = function (e) {
+        return false;
+    }
+   </script>
   <!--====== Favicon Icon ======-->
   <link rel="icon" type="image/png" sizes="250x250" href="images/dem-nguoc.png">
   <!-- Main CSS -->
